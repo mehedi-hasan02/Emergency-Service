@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Hotline</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="title-container">
+                <img src="/assets/logo.png" alt="">
+                <h3>Emergency<br>Service</h3>
+            </div>
+            <div class="right-cornner">
+                <div class="fav">
+                    <p>0</p>
+                    <img src="/assets/heart.png" alt="">
+                </div>
+                <div class="token">
+                    <p>0</p>
+                    <img src="/assets/coin.png" alt="">
+                </div>
+                <div class="copy-count">
+                    <p>0 <span>Copy</span></p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <div class="hero-logo">
+                <img src="/assets/logo.png" alt="">
+            </div>
+            <div class="hero-title">
+                <h3>Emergency Service Directory</h3>
+            </div>
+            <div class="hero-discription">
+                <p>Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+                    Bangladesh</p>
+            </div>
+        </div>
+
+        <div class="data-container">
+            <div class="hotline-container">
+                <div class="hotline-card">
+                    <div class="card-icon">
+                        <div class="emergency-icon">
+                            <img src="/assets/emergency.png" alt="">
+                        </div>
+                        <div class="heart-icon">
+                            <img src="/assets/blankheart.png" alt="">
+                        </div>
+                    </div>
+                    <div class="hotline-title">
+                        <h3>National Emergency Number</h3>
+                        <p>National Emergency</p>
+                    </div>
+                    <div class="hotline-number">
+                        <p>999</p>
+                    </div>
+                    <div class="hotline-type">
+                        <p>All</p>
+                    </div>
+                    <div class="hotline-contact">
+                        <button id="copy-btn">
+                            <div id="copy-icon">
+                                <img src="/assets/text.png" alt="">
+                            </div>
+                            <p>Copy</p>
+                        </button>
+                        <button id="call-btn">
+                            <div class="call-icon">
+                                <img src="/assets/phone.png" alt="">
+                            </div>
+                            <p>Call</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="history-container">
+                <div class="history-header">
+                    <div class="history-title">
+                        <img src="/assets/clock.png" alt="">
+                        <p>Call History</p>
+                    </div>
+                    <button id="clear-btn">Clear</button>
+                </div>
+
+                <div class="history-data">
+                    <div class="each-call">
+                        <div>
+                            <p>Fire Service Number</p>
+                            <p>999</p>
+                        </div>
+                        <div>
+                            <p>11:36:58 AM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
